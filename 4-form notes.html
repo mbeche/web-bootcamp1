@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html>
+	<head>
+	</head>
+	
+	<body>
+	
+<!-- action - where the data is sent to -->
+<!-- method - what HTTP method is (get/post) -->
+		<form>
+			<label> Username: <input type="text" placeholder="username"></label>
+			<label> e-mail: <input name="email" type="email" placeholder="email" required> </label>
+			<label> Password: <input type="password" placeholder="password"> </label>
+			<label> Date of Birth: <input type="date"> </label>
+			<label> Favorite Color: <input type="color"> </label>
+			<label> Upload Resume: <input type="file"> </label>
+			<label> Receive E-mail Notifications: <input type="checkbox"> </label>
+			<label> Music: FM <input name = "listen" type="radio" value="FM">
+			Stream <input name = "listen" type="radio" value="stream"> 
+			</label>
+			
+			<select name="mood">
+				<option value="happy"> :) </option>
+				<option value="neutral"> :| </option>
+				<option value="sad"> :( </option>
+			</select>
+			<textarea rows="10" cols="50"></textarea>
+			<button>Go</button>
+		</form>
+
+	</body>
+</html>

@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html>
+	<head>
+	</head>
+	
+	<body>
+	
+<!-- action - where the data is sent to -->
+<!-- method - what HTTP method is (get/post) -->
+	<h1>Register</h1>
+		<form>
+			<label> First Name: <input name="first" type="text" required></label>
+			<label> Last Name: <input name="last" type="text" required></label>
+			<br>
+			<label> Male <input name="gender" type="radio" value="male">
+			Female <input name="gender" type="radio" value="female">
+			Other <input name="gender" type="radio" value="other"> 
+			</label>
+			<br>
+			<label> e-mail: <input name="email" type="email" placeholder="email" required> </label>
+			<label> Password: <input name="password" type="password" placeholder="password" pattern=".{5,10}" required title="5-10 characters in length"> </label>
+			<br>
+			<label> Date of Birth:
+				<select name="Month">
+					<option> Month </option>
+					<option> January </option>
+					<option> February </option>
+				</select>
+				<select name="Day">
+					<option> Day </option>
+					<option> 1 </option>
+					<option> 3 </option>
+				</select>
+				<select name="Year">
+					<option> Year </option>
+					<option> 2005 </option>
+					<option> 2004 </option>
+				</select>
+			<br>
+			<label> I agree to the terms and conditions   <input type="checkbox"> </label>
+			<button>Go</button>
+		</form>
+
+	</body>
+</html>

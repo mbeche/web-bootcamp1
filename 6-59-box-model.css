@@ -1,0 +1,20 @@
+p {
+	/* width is measured around parent element */
+	/* width: 200px; */
+	width: 50%;
+	/* height: 200px; */
+	
+	border: 2px blue solid;
+	
+	/* padding is the space between element and border */
+	/* padding gets added on top of the  width/height */
+	/* padding: top right bottom left */
+	padding: 10px;
+	
+	
+	/* margin sets space between boxes */
+	/* margin: top right bottom left */
+	/* auto sets margin what it needs to be to be centered */
+	margin: 100px;
+	
+}
