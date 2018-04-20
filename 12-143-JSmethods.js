@@ -24,3 +24,14 @@ let cat = {
   noise: "meow",
   mkNoise: verb
 }
+
+// lesson 143:
+
+let comments = {};
+comments.data = [ "good job!", "bye", "lame..."];
+
+comments.print = function (){
+	this.data.forEach(function(el){
+		console.log(el);
+	});
+}
