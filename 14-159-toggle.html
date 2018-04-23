@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style media="screen">
+      body {
+        text-align: center;
+      }
+
+      button {
+        margin-top: 20%;
+      }
+
+      .bg-color {
+        background-color: purple;
+      }
+    </style>
+
+  </head>
+  <body>
+    <button>Click Me</button>
+  </body>
+
+  <script type="text/javascript">
+    let but = document.querySelector("button");
+    but.addEventListener("click",function(){
+      document.querySelector("body").classList.toggle("bg-color");
+    })
+  </script>
+
+</html>
