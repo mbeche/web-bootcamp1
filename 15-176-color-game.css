@@ -1,0 +1,21 @@
+.square {
+  width: 30%;
+  height: 50%;
+  margin: 1.66%;
+  background-color: purple;
+  padding-bottom: 30%;
+  float: left;
+}
+
+h1  {
+  color: white;
+}
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  max-height: 200px;
+}
+
+body {
+  background-color: #232323;
+}
